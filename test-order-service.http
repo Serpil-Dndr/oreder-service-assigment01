@@ -1,7 +1,7 @@
 # Test the order-service
 
 ### Place an order
-POST https://order-service-new-cfaba3gcbvhpbvhc.canadacentral-01.azurewebsites.net//orders
+POST https://order-service-new-cfaba3gcbvhpbvhc.canadacentral-01.azurewebsites.net/orders
 Content-Type: application/json
 
 {
