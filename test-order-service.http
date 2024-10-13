@@ -1,10 +1,10 @@
 # Test the order-service
 
 ### Place an order
-POST https://order-service-new-cfaba3gcbvhpbvhc.canadacentral-01.azurewebsites.net/orders
+POST http://localhost:3000/orders
 Content-Type: application/json
 
 {
-  "product": "Cat Food",  
+  "product": "Bird Food",
   "price": "59.99$"
 }
